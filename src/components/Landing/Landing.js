@@ -167,7 +167,7 @@ function Landing() {
                             {headerData.resumePdf && (
                                 <a
                                     href={headerData.resumePdf}
-                                    download='resume'
+                                    download='Anusha Surendran'
                                     target='_blank'
                                     rel='noreferrer'
                                 >

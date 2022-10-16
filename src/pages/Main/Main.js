@@ -16,12 +16,13 @@ import {
 	Services,
 	Achievement,
 } from "../../components";
+
 import { headerData } from "../../data/headerData";
 import GitHubCalendar from "react-github-calendar";
 import Skill from "../skillcard.js/Skill";
 import { ThemeContext } from "../../contexts/ThemeContext";
 import { useContext } from "react";
-
+import Navbar2 from '../../components/Navbar2/Navbar2'
 function Main() {
 	const { theme } = useContext(ThemeContext);
 	return (
@@ -29,7 +30,7 @@ function Main() {
 			<Helmet>
 				<title>{headerData.name} - Porfolio</title>
 			</Helmet>
-
+			<Navbar2/>
 			<Navbar />
 			<Landing />
 			<About />
